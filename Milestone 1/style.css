@@ -1,0 +1,60 @@
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f4f7f6;
+color: #333;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+color: #0c2f57;
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+background-color: #dad4d4;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+fieldset {
+border: 2px solid #062f5f;
+border-radius: 8px;
+margin-bottom: 20px;
+padding: 15px;
+}
+
+h3 {
+color: #0f3d72;
+border-bottom: 2px solid #e1e1e1;
+padding-bottom: 5px;
+}
+
+label {
+display: block;
+margin: 10px 0 5px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+width: calc(100% - 12px);
+padding: 8px;
+border: 1px solid #c9c3c3;
+border-radius: 4px;
+margin-bottom: 15px;
+transition: border-color 0.3s;
+}
+
+button{
+    color: #0f3d72;
+    width: calc(150PX - 50PX);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
